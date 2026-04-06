@@ -1,5 +1,5 @@
 // ─── Hero Position ────────────────────────────────────────────────────────────
-const BOTTOM_OFFSET_MOBILE  = '60px'
+const BOTTOM_OFFSET_MOBILE  = '110px'
 const BOTTOM_OFFSET_DESKTOP = '200px'
 
 const IMAGE = '/bg2.png'         // image file in /public
