@@ -52,7 +52,7 @@ export default function Contact() {
             </div>
             <div>
               <label htmlFor="message" className={labelClass}>Message</label>
-              <textarea id="message" name="message" rows={4} required className={inputClass} placeholder="What are you working with?" />
+              <textarea id="message" name="message" rows={4} required className={inputClass} placeholder="What's on your mind?" />
             </div>
             {result === 'error' && <p className="text-neutral-500 text-xs">Something went wrong. Please try again.</p>}
             <button

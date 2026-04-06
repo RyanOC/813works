@@ -14,6 +14,11 @@ const services = [
     title: 'Workflow Automation',
     description: 'Repetitive processes turned into reliable software. Less manual work, fewer errors, more time on things that matter.',
   },
+  {
+    number: '04',
+    title: 'Data & Reporting',
+    description: 'Making sense of what you have. Clean pipelines, clear dashboards, and reports that reflect reality.',
+  },
 ]
 
 export default function Services() {
@@ -22,7 +27,7 @@ export default function Services() {
       <div className="max-w-5xl">
         <div>
           {services.map((service) => (
-            <div key={service.number} className="py-10 flex flex-col sm:grid sm:grid-cols-12 gap-3 sm:gap-8 sm:items-baseline">
+            <div key={service.number} className="py-5 flex flex-col sm:grid sm:grid-cols-12 gap-3 sm:gap-8 sm:items-baseline">
               <h3 className="sm:col-span-4 text-2xl font-semibold text-white">{service.title}</h3>
               <p className="sm:col-span-8 text-neutral-400 leading-relaxed">{service.description}</p>
             </div>
